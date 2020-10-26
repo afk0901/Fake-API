@@ -1,9 +1,12 @@
 {
-   "test": [
-    {
-        "id": 5,
-        "name": "blah",
-        "extra": 20
-    }
- ]
-}
+    "artists": [
+     
+     {
+         "id": 1,
+         "type": "artist",
+         "order": 1,
+         "name": "Jón Jónsson"
+     }
+ 
+  ]
+ }
