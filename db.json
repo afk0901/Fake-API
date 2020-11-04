@@ -1,12 +1,553 @@
 {
     "artists": [
-     
-     {
-         "id": 1,
-         "type": "artist",
-         "order": 1,
-         "name": "Jón Jónsson"
-     }
- 
-  ]
- }
+        {
+            "id": 1,
+            "type": "artist",
+            "order": 1,
+            "name": "Helgi Björnsson",
+            "information": {
+                "shortDescription": "",
+                "sections": [
+                    {
+                        "type": "text",
+                        "content": "admin",
+                        "field": "author"
+                    },
+                    {
+                        "type": "text",
+                        "content": "01/01/2020",
+                        "field": "date"
+                    },
+                    {
+                        "alternate_names": [
+                            {
+                                "order": 1,
+                                "content": "HB",
+                                "field": "alternate_names"
+                            },
+                            {
+                                "order": 2,
+                                "type": "alternate_names",
+                                "content": "H. Björnsson",
+                                "field": "alternate_names"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Artist Type",
+                        "content": "Einstaklingur",
+                        "field": "Artist Type"
+                    },
+                    {
+                        "type": "Image",
+                        "url": "https://islensktonlist.is/sites/default/files/styles/midlungs_320px_breid/public/thumbnails/image/no-artist-image.jpg?itok=j4lPL2lU",
+                        "field": "Avatar"
+                    },
+                    {
+                        "biography": [
+                            {
+                                "order": 1,
+                                "type": "text",
+                                "content": "BIO - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                                "field": "Biography"
+                            },
+                            {
+                                "order": 2,
+                                "type": "text",
+                                "content": "Bio number 2 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                                "field": "Biography"
+                            }
+                        ]
+                    },
+                    {
+                        "body": [
+                            {
+                                "order": 1,
+                                "type": "text",
+                                "content": "Bodyparagraph1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                                "field": "Body"
+                            },
+                            {
+                                "order": 2,
+                                "type": "text",
+                                "content": "Bodyparagraph number 2 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                                "field": "Body"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "content": "1956",
+                        "field": "Born"
+                    },
+                    {
+                        "type": "text",
+                        "content": "2030",
+                        "field": "Died"
+                    },
+                    {
+                        "type": "text",
+                        "content": "3218553",
+                        "field": "Discogs Artist ID"
+                    },
+                    {
+                        "type": "Boolean",
+                        "checked": false,
+                        "field": "Foreign artist"
+                    },
+                    {
+                        "genre": [
+                            {
+                                "type": "Music Genre",
+                                "content": "Country",
+                                "field": "Genre"
+                            },
+                            {
+                                "type": "Music Genre",
+                                "content": "Pop",
+                                "field": "Genre"
+                            }
+                        ]
+                    },
+                    {
+                        "images": [
+                            {
+                                "order": 1,
+                                "type": "Image",
+                                "url": "https://www.man.is/wp-content/uploads/2020/05/helgi-bjornsson-800x580.jpg",
+                                "field": "Images"
+                            },
+                            {
+                                "order": 2,
+                                "type": "Image",
+                                "url": "https://img.discogs.com/b88iow9P4UokFAY1BzSR3xv6TQE=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-3218553-1423826194-5485.jpeg.jpg",
+                                "field": "Images"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Boolean",
+                        "checked": false,
+                        "field": "Is checked by staff"
+                    },
+                    {
+                        "type": "text",
+                        "content": "061a2012-b327-4273-b394-8c75282ddfa3",
+                        "field": "Musicbrainz Artist ID"
+                    },
+                    {
+                        "type": "text",
+                        "content": "233",
+                        "field": "Original ID"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Helgi Björnsson",
+                        "field": "Real name"
+                    },
+                    {
+                        "type": "text",
+                        "content": "7a0EHDYu3wAgR3qiC87Mm0",
+                        "field": "Spotify Artist ID"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "type": "artist",
+            "order": 2,
+            "name": "Addi 800",
+            "information": {
+                "shortDescription": "",
+                "sections": [
+                    {
+                        "type": "text",
+                        "content": "admin",
+                        "field": "author"
+                    },
+                    {
+                        "type": "text",
+                        "content": "02/03/2019",
+                        "field": "date"
+                    },
+                    {
+                        "alternate_names": []
+                    },
+                    {
+                        "type": "Artist Type",
+                        "content": "",
+                        "field": "Artist Type"
+                    },
+                    {
+                        "type": "Image",
+                        "url": "",
+                        "field": "Avatar"
+                    },
+                    {
+                        "biography": [
+                            {
+                                "order": 1,
+                                "type": "text",
+                                "content": "BIO ADDI800 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                                "field": "Biography"
+                            },
+                            {
+                                "order": 2,
+                                "type": "text",
+                                "content": "Bio number 2 ADDI800 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                                "field": "Biography"
+                            }
+                        ]
+                    },
+                    {
+                        "body": [
+                            {
+                                "order": 1,
+                                "type": "text",
+                                "content": "Bodyparagraph1 ADDI 800 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                                "field": "Body"
+                            },
+                            {
+                                "order": 2,
+                                "type": "text",
+                                "content": "Bodyparagraph number 2 ADDI 800 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                                "field": "Body"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "content": "1977",
+                        "field": "Born"
+                    },
+                    {
+                        "type": "text",
+                        "content": "",
+                        "field": "Died"
+                    },
+                    {
+                        "type": "text",
+                        "content": "412387",
+                        "field": "Discogs Artist ID"
+                    },
+                    {
+                        "type": "Boolean",
+                        "checked": true,
+                        "field": "Foreign artist"
+                    },
+                    {
+                        "genre": [
+                            {
+                                "type": "Music Genre",
+                                "content": "Techno",
+                                "field": "Genre"
+                            },
+                            {
+                                "type": "Music Genre",
+                                "content": "Disco",
+                                "field": "Genre"
+                            }
+                        ]
+                    },
+                    {
+                        "images": [
+                            {
+                                "order": 1,
+                                "type": "Image",
+                                "url": "https://islensktonlist.is/sites/default/files/styles/thumbnail/public/thumbnails/image/nokkrar-notalegar-abreidur.jpg?itok=4OlxAZFj",
+                                "field": "Images"
+                            },
+                            {
+                                "order": 2,
+                                "type": "Image",
+                                "url": "https://scontent.frkv3-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/97857341_3261558420577467_1619222526225809408_n.jpg?_nc_cat=105&ccb=2&_nc_sid=85a577&efg=eyJpIjoidCJ9&_nc_ohc=uLwxt_xEOOsAX8YuSS-&_nc_ht=scontent.frkv3-1.fna&tp=14&oh=14384d9a30a2eddd582910a13dceb5d0&oe=5FCA00AF",
+                                "field": "Images"
+                            },
+
+                            {
+                                "order": 3,
+                                "type": "Image",
+                                "url": "https://img.discogs.com/m2LNmKRIRcnozB2ddK5P7x1Ussc=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-7116281-1555961593-4225.jpeg.jpg",
+                                "field": "Images"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Boolean",
+                        "checked": true,
+                        "field": "Is checked by staff"
+                    },
+                    {
+                        "type": "text",
+                        "content": "d307c5ff-f9b6-4b0e-9bcb-7dc161d96f61",
+                        "field": "Musicbrainz Artist ID"
+                    },
+                    {
+                        "type": "text",
+                        "content": "234",
+                        "field": "Original ID"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Arnþór Örlygsson",
+                        "field": "Real name"
+                    },
+                    {
+                        "type": "text",
+                        "content": "",
+                        "field": "Spotify Artist ID"
+                    }
+                ]
+            }
+        },
+
+        {
+            "id": 3,
+            "type": "artist",
+            "order": 3,
+            "name": "Páll Óskar",
+            "information": {
+                "shortDescription": "",
+                "sections": [
+                    {
+                        "type": "text",
+                        "content": "admin",
+                        "field": "author"
+                    },
+                    {
+                        "type": "text",
+                        "content": "06/12/2017",
+                        "field": "date"
+                    },
+                    {
+                        "alternate_names": []
+                    },
+                    {
+                        "type": "Artist Type",
+                        "content": "",
+                        "field": "Artist Type"
+                    },
+                    {
+                        "type": "Image",
+                        "url": "",
+                        "field": "Avatar"
+                    },
+                    {
+                        "biography": []
+                    },
+                    {
+                        "body": []
+                    },
+                    {
+                        "type": "text",
+                        "content": "",
+                        "field": "Born"
+                    },
+                    {
+                        "type": "text",
+                        "content": "",
+                        "field": "Died"
+                    },
+                    {
+                        "type": "text",
+                        "content": "",
+                        "field": "Discogs Artist ID"
+                    },
+                    {
+                        "type": "Boolean",
+                        "checked": true,
+                        "field": "Foreign artist"
+                    },
+                    {
+                        "genre": []
+                    },
+                    {
+                        "images": []
+                    },
+                    {
+                        "type": "Boolean",
+                        "checked": false,
+                        "field": "Is checked by staff"
+                    },
+                    {
+                        "type": "text",
+                        "content": "",
+                        "field": "Musicbrainz Artist ID"
+                    },
+                    {
+                        "type": "text",
+                        "content": "",
+                        "field": "Original ID"
+                    },
+                    {
+                        "type": "text",
+                        "content": "",
+                        "field": "Real name"
+                    },
+                    {
+                        "type": "text",
+                        "content": "",
+                        "field": "Spotify Artist ID"
+                    }
+                ]
+            }
+        },
+
+
+        {
+            "id": 4,
+            "type": "artist",
+            "order": 4,
+            "name": "Salka Sól Eyfeld Hjálmarsdóttir",
+            "information": {
+                "shortDescription": "",
+                "sections": [
+                    {
+                        "type": "text",
+                        "content": "admin",
+                        "field": "author"
+                    },
+                    {
+                        "type": "text",
+                        "content": "08/08/2020",
+                        "field": "date"
+                    },
+                    {
+                        "alternate_names": [
+                            { "order": 1,
+                            "content": "Salka Sól",
+                            "field": "alternate_names"
+                        }
+                    ]
+                    },
+                    {
+                        "type": "Artist Type",
+                        "content": "Einstaklingur",
+                        "field": "Artist Type"
+                    },
+                    {
+                        "type": "Image",
+                        "url": "https://img.discogs.com/iGcexHzvooWaS8f65Z7PPduBEfs=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-2597709-1486948429-7940.jpeg.jpg",
+                        "field": "Avatar"
+                    },
+                    {
+                        "biography": [
+
+    
+                         {
+                            "order": 1,
+                            "type": "text",
+                            "content": "Chuck Norris can deny the \"License Agreement\" and still be able to install the software, In 1508, Chuck Norris threw a tin of paint at a ceiling, ever since then thousands of people flock to see the Sistine Chapel. Chuck Norris does not sleep. He waits. CNN was originally created as the \"Chuck Norris Network\" to update Americans with on-the-spot ass kicking in real-time, The amount of people who live in the United States of America is the amount of years Chuck Norris has lived.",
+                            "field": "Biography"
+                         },
+
+                         {
+                            "order": 2,
+                            "type": "text",
+                            "content": "The Great Wall of China was originally created to keep Chuck Norris out. It failed miserably. Chuck Norris can win a game of Connect Four in only three moves. There is no chin behind Chuck Norris' beard. There is only another fist When Chuck Norris does a pushup, he isn't lifting himself up, he's pushing the Earth down, The quickest way to a man's heart is with Chuck Norris' fist The Titanic didn't sink by an ice burg, Chuck Norris was doing the back stroke across the Atlantic, Chuck Norris does not sleep. He waits Chuck Norris doesn't wash his clothes, he disembowels them There is no theory of evolution. Just a list of animals Chuck Norris allows to live If you spell Chuck Norris in Scrabble, you win. Forever. Chuck Norris is my Homeboy.",
+                            "field": "Biography"
+                         },
+
+                         {
+                            "order": 3,
+                            "type": "text",
+                            "content": "There is no theory of evolution. Just a list of animals Chuck Norris allows to live. Chuck Norris invented Kentucky Fried Chicken's famous secret recipe, with eleven herbs and spices. But nobody ever mentions the twelfth ingredient: Fear, Chuck Norris uses pepper spray to spice up his steaks Chuck Norris doesn't churn butter. He roundhouse kicks the cows and the butter comes straight out.",
+                            "field": "Biography"
+                         }
+
+                        ]
+                    },
+                    {
+                        "body": [
+                             {
+                                "order": 1,
+                                "type": "text",
+                                "content": "Chuck Norris taught Jimi Hendrix to play guitar Remember the Soviet Union? They gave up after watching a Chuck Norris marathon on cable, Chuck Norris doesn't wash his clothes, he disembowels them, Remember the Soviet Union? They decided to quit after watching a DeltaForce marathon on Satellite TV.",
+                                "field": "Biography"
+                             },
+
+                             {
+                                "order": 2,
+                                "type": "text",
+                                "content": "Contrary to popular belief, Chuck Norris, not the box jellyfish of northern Australia, is the most venomous creature on earth. Chuck Norris doesn't read books. He stares them down until he gets the information he wants, Chuck Norris doesn't read books. He stares them down until he gets the information he wants, Chuck Norris does not get frostbite. Chuck Norris bites frost There is no chin behind Chuck Norris' beard. There is only another fist When Chuck Norris breaks a bone, he glues them back together What was going through the minds of all of Chuck Norris' victims before they died? His shoe, Chuck Norris originally appeared in the Street Fighter II video game, but was removed by Beta Testers because every button caused him to do a roundhouse kick. When asked bout this glitch Norris replied, That's no glitch.Chuck Norris is the only man to ever defeat a brick wall in a game of tennis. Contrary to popular belief, America is not a democracy, it is a Chucktatorship.",
+                                "field": "Biography"
+                             },
+                             {
+                                "order": 3,
+                                "type": "text",
+                                "content": "Contrary to popular belief, America is not a democracy, it is a Chucktatorship. Crop circles are Chuck Norris' way of telling the world that sometimes corn needs to lie down Chuck Norris can lead a horse to water AND make it drink. Chuck Norris doesn't read books. He stares them down until he gets the information he wants If you spell Chuck Norris in Scrabble, you win. Forever. Chuck Norris doesn't have nerves of steel. Steel is nervous about Chuck Norris, Chuck Norris once roundhouse kicked someone so hard that his foot broke the speed of light, went back in time, and killed Amelia Earhart while she was flying over the Pacific Ocean. Chuck Norris has the greatest Poker-Face of all time, Chuck Norris single-handedly caused the baby boom generation Chuck Norris will attain statehood in 2009. His state flower will be the Magnolia.",
+                                "field": "Biography"
+                             },
+
+                             {
+                                "order": 4,
+                                "type": "text",
+                                "content": "If you ask Chuck Norris what time it is, he always says, \"Two seconds 'til.\" After you ask, \"Two seconds 'til what?\" he roundhouse kicks you in the face Chuck Norris has two speeds. Walk, and Kill. Police label anyone attacking Chuck Norris as a Code 45-11... a suicide, Chuck Norris doesn't go hunting... CHUCK NORRIS GOES KILLING When Chuck Norris walks into a room, the mice jump on chairs. Chuck Norris does not get frostbite. Chuck Norris bites frost Chuck Norris does not sleep. He waits.",
+                                "field": "Biography"
+                             },
+
+                             {
+                                "order": 5,
+                                "type": "text",
+                                "content": "When the Boogeyman goes to sleep every night, he checks his closet for Chuck Norris, Contrary to popular belief, America is not a democracy, it is a Chucktatorship. Chuck Norris can win a game of Connect Four in only three moves.",
+                                "field": "Biography"
+                             }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "content": "",
+                        "field": "Born"
+                    },
+                    {
+                        "type": "text",
+                        "content": "",
+                        "field": "Died"
+                    },
+                    {
+                        "type": "text",
+                        "content": "",
+                        "field": "Discogs Artist ID"
+                    },
+                    {
+                        "type": "Boolean",
+                        "checked": false,
+                        "field": "Foreign artist"
+                    },
+                    {
+                        "genre": []
+                    },
+                    {
+                        "images": []
+                    },
+                    {
+                        "type": "Boolean",
+                        "checked": true,
+                        "field": "Is checked by staff"
+                    },
+                    {
+                        "type": "text",
+                        "content": "",
+                        "field": "Musicbrainz Artist ID"
+                    },
+                    {
+                        "type": "text",
+                        "content": "",
+                        "field": "Original ID"
+                    },
+                    {
+                        "type": "text",
+                        "content": "",
+                        "field": "Real name"
+                    },
+                    {
+                        "type": "text",
+                        "content": "",
+                        "field": "Spotify Artist ID"
+                    }
+                ]
+            }
+        }
+    ]
+}
